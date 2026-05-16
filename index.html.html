@@ -1,0 +1,144 @@
+﻿<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maafku Buat Kamu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="section hero active" id="sectionHook">
+        <div class="hero-inner">
+          <h1>hai sayangkuuuu...</h1>
+          <div class="typing">
+            <span id="typingText"></span><span class="cursor"></span>
+          </div>
+          <p class="hero-subtitle">
+            sini aku minta maaf sambil kasih hati biar suasana jadi adem lagi.
+          </p>
+          <div class="pulse-heart" aria-hidden="true"></div>
+          <button class="btn-primary" id="hookButton" type="button">
+            klik kalau udah ndaa ngambek
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="sectionLetter">
+        <div class="card">
+          <div class="letter-header">
+            <div class="letter-dot"></div>
+            <div class="letter-title">Sedikit Surat Buat Kamu</div>
+          </div>
+          <div class="letter-text">
+            Sayangkuuuuuuuu cintakuuuuuu, maafinnnn akuuu yaaa sayanggg akhir
+            akhirr iniii akuuuu sering buattt kamuuu capeee karenaa sikap,
+            sifattt, dan tingkah akuu, akuuuu mintaaa maaff yaaaa sayanggg, akuu
+            sadarrr sayaggggg akuuu udaaa ngelakuinn kesalahann besarrr sampeee
+            buattt kamuuu ngerasain benerr benerr capeee dannn hampir gaada
+            energiii buattt akuuuu, maafinnn akuuu yaaa sayanggg, izininnn akuuu
+            buattt memperbaiki dirii akuu buatt kamuuu yaaa sayanggg, pelannn
+            pelannn akuuu bakalan buktiinnn keee kamuuu sayanggg do'ain akuuu
+            biarrr bisaa lebihh baikk yaaa sayanggg, akuuu sayanggg bangett
+            samaaa kamuuu sayanggg selaluuu, loveee youuuu moreeee cintakuuuuuu
+          </div>
+
+          <div class="photo-grid">
+            <div
+              class="photo-item"
+              style="background-image: url(&quot;assets/c.jpeg&quot;)"
+            >
+              <div class="photo-caption">
+                foto yang di buaat ai beso foto beneran ya sayangg.
+              </div>
+            </div>
+            <div
+              class="photo-item"
+              style="background-image: url(&quot;assets/p.jpeg&quot;)"
+            >
+              <div class="photo-caption">
+                warna pinkk warna kesukaan kamuu sayanggg
+              </div>
+            </div>
+            <div
+              class="photo-item"
+              style="background-image: url(&quot;assets/c2.jpeg&quot;)"
+            >
+              <div class="photo-caption">pacall akuu selaluuu cantiii.</div>
+            </div>
+          </div>
+
+          <div class="timer-box" aria-label="Hitungan berapa lama kita bareng">
+            <div class="time-card">
+              <strong id="days">0</strong>
+              <span>Hari</span>
+            </div>
+            <div class="time-card">
+              <strong id="hours">0</strong>
+              <span>Jam</span>
+            </div>
+            <div class="time-card">
+              <strong id="minutes">0</strong>
+              <span>Menit</span>
+            </div>
+            <div class="time-card">
+              <strong id="seconds">0</strong>
+              <span>Detik</span>
+            </div>
+          </div>
+          <button class="btn-primary" id="continueButton" type="button">
+            Lanjut ke Kejutan
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="sectionGame">
+        <div class="game-card">
+          <h2>sekarangg, kamu mau kan maafin aku sayang?</h2>
+          <div class="button-row" id="buttonRow">
+            <button class="btn-small btn-yes" id="yesButton" type="button">
+              Mau ❤️
+            </button>
+            <button class="btn-small btn-no" id="noButton" type="button">
+              Gak!
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sectionHappy">
+        <div class="game-card happy-card">
+          <div class="happy-text">
+            <div class="happy-message">makasih ya sayang!</div>
+            <p>janji deh gak bakal diulangin lagi. I love you so much! ✨</p>
+          </div>
+          <button class="btn-wa" id="closeButton" type="button">
+            Tutup 💕
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <div class="confetti-layer" id="confettiLayer"></div>
+
+    <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+      <div class="modal">
+        <h3>makasih ya sayangg</h3>
+        <p>
+          semoga ini ngebantu kamu buat ngerasa lebih baik lagiii, lovee youuu moree sayanggg
+        </p>
+        <button class="btn-primary" id="modalButton" type="button">
+          selesaiiii
+        </button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
